@@ -230,6 +230,47 @@ main {
   text-align: center;
 }
 
+.footer-bootstrap {
+  width: min(92%, 1100px);
+  margin: 2rem auto 0;
+  background: var(--primary-dark);
+  color: #f8eee9;
+  border-radius: 20px 20px 0 0;
+  padding: 2.25rem 0 1.2rem;
+  box-shadow: 0 -10px 30px rgba(75, 45, 32, 0.08);
+}
+
+.footer-bootstrap h3,
+.footer-bootstrap h4 {
+  margin-bottom: 0.85rem;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.footer-bootstrap p,
+.footer-bootstrap li,
+.footer-bootstrap a {
+  color: rgba(248, 238, 233, 0.8);
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.social-list a:hover,
+.social-list a:focus-visible {
+  color: #fff;
+}
+
+.footer-bottom {
+  border-color: rgba(255, 255, 255, 0.18) !important;
+  margin-top: 1.5rem;
+}
+
 @media (max-width: 760px) {
   .navbar {
     flex-direction: column;
