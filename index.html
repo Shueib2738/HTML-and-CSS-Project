@@ -1,75 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Recipes</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shueib | Portfolio</title>
+  <meta name="description" content="Portfolio website for a front-end developer showcasing work, skills, and contact information." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
-    <nav class="navbar" aria-label="Main navigation">
-      <div class="logo">Simple Recipes</div>
+    <nav class="navbar container" aria-label="Main navigation">
+      <div class="brand">Shueib</div>
       <ul>
-        <li><a href="#top">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section class="hero" id="top">
+  <main id="home">
+    <section class="hero container">
       <div class="hero-copy">
-        <h1>Cook with confidence, every day.</h1>
-        <p>Simple recipes for busy home cooks, thoughtful ingredients, and meals that bring everyone together.</p>
+        <p class="eyebrow">Front-End Developer</p>
+        <h1>Building clean, modern web experiences.</h1>
+        <p class="lead">
+          I design and build responsive websites that combine strong visual appeal with practical usability and accessibility.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="#contact">Contact Me</a>
+        </div>
+        <ul class="mini-stats" aria-label="Quick facts">
+          <li><strong>2+</strong><span>Years Learning</span></li>
+          <li><strong>5+</strong><span>Projects Built</span></li>
+          <li><strong>100%</strong><span>Creative Focus</span></li>
+        </ul>
       </div>
-      <img class="hero-image" src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="Fresh ingredients and a prepared meal">
+
+      <div class="hero-card">
+        <div class="profile-image-wrap">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80" alt="Portrait of the developer" />
+        </div>
+        <div class="card-info">
+          <span class="status-dot"></span>
+          Available for freelance work
+        </div>
+      </div>
     </section>
 
-    <section class="about-section" id="about">
-      <h2 class="section-title">About</h2>
-      <div class="about-content">
-        <p class="highlight">About Us</p>
-        <p>Simple Recipes is your ultimate destination for easy-to-follow recipes that make cooking enjoyable for everyone, whether you're a seasoned chef or a beginner. Founded in the United States out of a passion for home cooking, our mission is to inspire and empower you to create delicious meals with everyday ingredients and simple techniques.</p>
-        <p>We offer a wide range of diverse cuisines, from classic comfort foods to international dishes, all accompanied by step-by-step instructions and helpful tips to ensure your cooking experience is smooth and successful. Our dedicated team of home cooks and food enthusiasts meticulously test each recipe, so you can cook with confidence.</p>
-        <p>At Simple Recipes, we believe that good food brings people together, and we're excited to have you join our community. Let’s cook up something amazing together!</p>
+    <section id="about" class="content-section container">
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>Passionate about thoughtful design and usable interfaces.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am a web developer focused on building responsive, user-friendly websites using HTML, CSS, and modern front-end practices.
+            I enjoy turning ideas into polished digital experiences that are easy to use, visually engaging, and accessible to everyone.
+          </p>
+          <p>
+            Through my coursework and personal projects, I have grown my skills in layout design, semantic HTML, typography, styling, and Bootstrap-based responsive layouts.
+          </p>
+        </div>
+        <div class="about-panel">
+          <h3>What I focus on</h3>
+          <ul>
+            <li>Responsive user interfaces</li>
+            <li>Clear content structure</li>
+            <li>Modern visual styling</li>
+            <li>Accessible design practices</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section class="contact-section" id="contact">
-      <h2 class="section-title">Contact</h2>
-      <div class="contact-grid">
-        <div class="contact-details">
-          <div class="contact-item">
-            <strong>Email:</strong><br>
-            hello@simplerecipes.com
-          </div>
-          <div class="contact-item">
-            <strong>Phone:</strong><br>
-            (555) 123-4567
-          </div>
-          <div class="contact-item">
-            <strong>Location:</strong><br>
-            United States
-          </div>
+    <section id="projects" class="content-section alt-bg">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work from the HTML and CSS course.</h2>
         </div>
 
-        <form class="contact-form" action="#" method="post">
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-tag">Landing Page</div>
+            <h3>Simple Recipes</h3>
+            <p>A warm recipe-themed homepage with a hero section, calls to action, and custom styling for a food blog feel.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">UI Section</div>
+            <h3>About Page</h3>
+            <p>An informational section with smooth scrolling, structured content, and consistent visual design that complements the main page.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Contact Form</div>
+            <h3>Contact Experience</h3>
+            <p>A clean contact section with a user form, contact details, and a polished interface tailored to the site’s branding.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Bootstrap</div>
+            <h3>Responsive Footer</h3>
+            <p>A multi-column footer built with Bootstrap grid classes to organize contact info, social links, and copyright details.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="content-section container">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>Tools and technologies I use.</h2>
+      </div>
+
+      <div class="skills-grid">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>Responsive Design</span>
+        <span>Bootstrap</span>
+        <span>Accessibility</span>
+        <span>Visual Design</span>
+        <span>Typography</span>
+        <span>Git & GitHub</span>
+      </div>
+    </section>
+
+    <section id="contact" class="content-section container">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s build something meaningful together.</h2>
+      </div>
+
+      <div class="contact-box">
+        <div>
+          <h3>Get in touch</h3>
+          <p>Email: hello@shueib.dev</p>
+          <p>Phone: +1 (555) 123-4567</p>
+          <p>Location: United States</p>
+        </div>
+
+        <form class="contact-form">
           <label>
             Name
-            <input type="text" name="name" placeholder="Your name">
+            <input type="text" placeholder="Your name" />
           </label>
           <label>
             Email
-            <input type="email" name="email" placeholder="you@example.com">
+            <input type="email" placeholder="you@example.com" />
           </label>
           <label>
             Message
-            <textarea name="message" placeholder="Tell us how we can help..."></textarea>
+            <textarea rows="4" placeholder="Tell me about your project..."></textarea>
           </label>
           <button type="submit">Send Message</button>
         </form>
@@ -77,37 +167,13 @@
     </section>
   </main>
 
-  <footer class="site-footer footer-bootstrap">
-    <div class="container-fluid px-4 px-md-5">
-      <div class="row g-4 align-items-start">
-        <div class="col-12 col-md-4">
-          <h3>Simple Recipes</h3>
-          <p>Fresh ideas, easy meals, and kitchen inspiration for every home cook.</p>
-        </div>
-
-        <div class="col-12 col-md-4">
-          <h4>Contact</h4>
-          <ul class="footer-list">
-            <li>Email: hello@simplerecipes.com</li>
-            <li>Phone: (555) 123-4567</li>
-            <li>Location: United States</li>
-          </ul>
-        </div>
-
-        <div class="col-12 col-md-4">
-          <h4>Follow Us</h4>
-          <ul class="footer-list social-list">
-            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-            <li><a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">Pinterest</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row mt-4 pt-3 border-top footer-bottom">
-        <div class="col-12 text-center">
-          <p class="mb-0">&copy; 2026 Simple Recipes. All rights reserved.</p>
-        </div>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Shueib. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
       </div>
     </div>
   </footer>

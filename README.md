@@ -1,53 +1,65 @@
-# HTML and CSS Project Repository
+# HTML and CSS Portfolio Repository
 
-This repository contains the HTML and CSS work completed during the course. Each project focuses on building modern, responsive web pages using semantic HTML, CSS styling, and Bootstrap layout techniques.
+This repository contains the front-end projects completed during the HTML and CSS course. The work focuses on building modern, responsive, and visually polished websites using semantic HTML, CSS styling, layout techniques, and Bootstrap components.
 
-## Projects Included
+## Portfolio Website
+This repository now includes a personal portfolio site that showcases:
+- a modern landing section with a professional introduction
+- an About section highlighting skills and experience
+- a Projects section presenting featured coursework and work samples
+- a Skills section summarizing technical abilities
+- a Contact section with a basic communication form
+- a polished footer with social links and branding
+
+## Course Projects Included
 
 ### 1. Simple Recipes Landing Page
-A warm, visually styled recipe-themed homepage featuring:
-- a hero section with a headline and promotional image
+A recipe-themed landing page featuring:
+- a hero section with messaging and imagery
 - navigation links for Home, About, and Contact
-- a clean, modern layout using custom CSS
-- responsive spacing and typography
+- custom styling to create a warm, welcoming visual identity
+- responsive layout behavior for different screen sizes
 
 ### 2. About Section
-An additional section added to the main page to share the brand story and mission. This project demonstrates:
-- section linking with anchor navigation
+A dedicated about block added to the main page to present the brand story and mission. This section demonstrates:
+- anchor navigation links
 - smooth scrolling behavior
-- styled content blocks that match the site theme
+- styled content blocks aligned with the overall design
 
 ### 3. Contact Section and Form
-A contact area built to complement the landing page, including:
-- contact details cards
+A contact area designed to match the site theme, including:
+- contact information blocks
 - a form layout with labels and input fields
-- a consistent visual style to match the rest of the site
+- consistent styling for a professional finish
 
 ### 4. Bootstrap Footer
-A multi-column footer built with Bootstrap grid classes to organize:
-- business/contact information
+A multi-column footer created with the Bootstrap grid system to organize:
+- contact information
 - social media links
-- copyright details
-- clean responsive layout styling
+- copyright and branding details
+- responsive content layout
 
 ## Technologies Used
 - HTML5
 - CSS3
 - Bootstrap grid system
 - Google Fonts
-- Responsive web design principles
+- Responsive design techniques
+- Git and GitHub
 
 ## Project Goals
-The main goal of this repository is to practice and apply core front-end development skills, including:
-- page structure and semantic HTML
-- visual design and styling with CSS
-- responsive layout techniques
+The main focus of this repository is to practice and apply the core skills required for front-end web development, including:
+- semantic HTML structure
+- visual design with CSS
+- responsive page layout
 - navigation and anchor linking
-- Bootstrap utility classes for modern website layouts
+- Bootstrap styling utilities
+- portfolio presentation and deployment readiness
 
 ## Files
-- `index.html` — main page structure and content
-- `style.css` — custom styling for the site
+- index.html — portfolio homepage and content sections
+- style.css — portfolio styling and responsive layout
+- README.md — repository overview and project summary
 
-## Repository Status
-This repository continues to evolve as new HTML and CSS assignments are completed throughout the course.
+## Live Deployment
+This portfolio is intended to be deployed using GitHub Pages or another hosted web service for review and presentation.
